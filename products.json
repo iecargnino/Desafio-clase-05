@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Camara",
+    "description": "Nikon",
+    "price": 300,
+    "thumbnail": "./img/nikon.jpg",
+    "code": "0a0a20",
+    "stock": 3
+  },
+  {
+    "id": 2,
+    "title": "Televisor",
+    "description": "LG",
+    "price": 200,
+    "thumbnail": "./img/tvLG.jpg",
+    "code": "0a0AA88",
+    "stock": 3
+  },
+  {
+    "id": 3,
+    "title": "Celular",
+    "description": "Xaomi",
+    "price": 150,
+    "thumbnail": "./img/tvLG.jpg",
+    "code": "0a0AA",
+    "stock": 3
+  }
+]

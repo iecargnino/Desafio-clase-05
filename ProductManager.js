@@ -3,7 +3,6 @@ let productos = []
 
 class ProductManager{
     constructor(path) {
-        //this.products = []
         this.path = path
     }
 
@@ -82,7 +81,7 @@ class ProductManager{
 }
 
 async function desafio() {
-    const admin = new ProductManager('products.json')
+    const admin = new ProductManager('./products.json')
     await admin.addProduct('Camara','Nikon',300,'./img/nikon.jpg','0a0a20',3)
     await admin.addProduct('Televisor','LG',200,'./img/tvLG.jpg','0a0AA88',3)
     await admin.addProduct('Celular','Xaomi',150,'./img/tvLG.jpg','0a0AA',3)
